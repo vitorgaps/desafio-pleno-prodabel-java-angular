@@ -60,7 +60,7 @@ A seguir, os principais endpoints da API.
 
 | Método | Rota               | Descrição                 | Exemplo de Corpo (Request)                               |
 | :----- | :----------------- | :------------------------ | :------------------------------------------------------- |
-| `POST` | `/api/citizens`      | Cria um novo cidadão.     | `{"name": "Ana Silva", "cpf": "11122233344"}`             |
+| `POST` | `/api/citizens`      | Cria um novo cidadão.     | `{"name": "Ana Silva", "cpf": "11122233344", "email": "anasilva@mail.com", "password": "umaSenhaForte123"}`             |
 | `GET`  | `/api/citizens`      | Lista todos os cidadãos.  | -                                                        |
 | `GET`  | `/api/citizens/{id}` | Busca um cidadão por ID.  | -                                                        |
 | `PUT`  | `/api/citizens/{id}` | Atualiza um cidadão.      | `{"name": "Ana Silva Souza", "cpf": "11122233344"}`       |
@@ -74,7 +74,7 @@ A seguir, os principais endpoints da API.
 | `POST` | `/api/employees`      | Cria um novo funcionário.   | `{"name": "João Lima", "registrationNumber": "98765"}`    |
 | `GET`  | `/api/employees`      | Lista todos os funcionários.| -                                                          |
 | `GET`  | `/api/employees/{id}` | Busca um funcionário por ID.| -                                                          |
-| `PUT`  | `/api/employees/{id}` | Atualiza um funcionário.    | `{"name": "João Lima Costa", "registrationNumber": "98765"}`|
+| `PUT`  | `/api/employees/{id}` | Atualiza um funcionário.    | `{"name": "João Lima Costa", "registrationNumber": "98765", "email": "joaolimamei@mail.com", "password": "umaSenhaForte123"}`|
 | `DELETE`|`/api/employees/{id}`| Deleta um funcionário.      | -                                                          |
 
 ---
